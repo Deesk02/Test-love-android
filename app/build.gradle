@@ -9,7 +9,7 @@ android {
     ndkVersion '27.3.13750724'
 
     defaultConfig {
-        applicationId project.properties["app.application_id"]
+        applicationId "com.TJ.colorpicker"
         versionCode project.properties["app.version_code"].toInteger()
         versionName project.properties["app.version_name"]
         minSdk 23
